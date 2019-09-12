@@ -1,0 +1,113 @@
+body {
+    color: #666;
+    margin: 0;
+    text-align: center;
+  }
+
+  header{
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  header li {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  header li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  header img {
+    float: left;
+    height: 50px;
+    padding: 0 20px;
+  }
+
+  footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .top {
+    background-image: url(image/header.jpg);
+    background-size: cover;
+    padding: 200px 0;
+  }
+  
+  .top h1 {
+    color: #FF9933;
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+
+  h2{
+    color: #333;
+    margin: 0;
+  }
+
+  hr{
+    margin-bottom: 50px;
+    height: 5px;
+    width: 100px;
+    border: none;
+  }
+
+  .white-line{
+    background-color: #fff;
+  }
+
+  .blue-line{
+    background-color: #7BC3D1;
+  }
+
+  .white-line{
+    background-color: #fff;
+  }
+
+  .about{
+    background-color: #F6F6F6;
+    padding: 100px;
+  }
+
+  .about img{
+    width: 200px;
+  }
+
+  .about table{
+    margin-left : auto ;
+    margin-right : auto ;
+    text-align: left;
+  }
+
+  .about table th{
+    font-weight: normal;
+  }
+
+  .portfolio{
+    background-color: #F6F6F6;
+    padding: 100px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    width: 25%;
+  }
+
+  .card img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+  }
+
+  .card h1 {
+    font-size: 20px;
+    text-align: center;
+  }
