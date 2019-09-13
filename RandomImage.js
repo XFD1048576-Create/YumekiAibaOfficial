@@ -1,4 +1,4 @@
-const pics_src = ["image/Top1.png","image/Top2.png","image/Top3.png","image/Top4.png","image/Top5.png"];
+const pics_src = ["Top1.png","Top2.png","Top3.png","Top4.png","Top5.png"];
 let num = -1;
 function slideshow_timer(){
   num = Math.floor(Math.random()*pics_src.length);
